@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					3BBBDF661EACA1F90026E2FF = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = ZG6E9H7P4H;
 						ProvisioningStyle = Automatic;
 					};
 					3BBBDF7A1EACA1F90026E2FF = {
@@ -412,6 +413,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZG6E9H7P4H;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.agx.HelloWorld;
@@ -424,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZG6E9H7P4H;
 				INFOPLIST_FILE = HelloWorld/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.agx.HelloWorld;
