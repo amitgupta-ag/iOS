@@ -33,9 +33,6 @@ class ViewController: UIViewController {
         }else {
         personaImageField.image = UIImage(named: "minion")
         }
-        
-        
-        
     }
 
     
