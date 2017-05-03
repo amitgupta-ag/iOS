@@ -10,6 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
     @IBOutlet var labelStatus: UILabel!
     
     override func viewDidLoad() {
@@ -22,21 +23,32 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
-    @IBAction func actionHappy(_ sender: UIButton) {
+    
+    @IBAction func buttonHappy(_ sender: UIButton) {
         labelStatus.text = "Happy Baby!"
-        labelStatus.isHidden = false
-    }
-
-    @IBAction func actionAverage(_ sender: Any) {
+        //resetTheLabel()
     }
     
-    @IBAction func actionLow(_ sender: UIButton) {
+    @IBAction func buttonCrazy(_ sender: Any) {
+        labelStatus.text = "Feeling Crazy!"
+        //resetTheLabel()
     }
     
-    @IBAction func actionAngry(_ sender: UIButton) {
+    @IBAction func buttonSad(_ sender: Any) {
+        labelStatus.text = "Feeling sad!"
+        //resetTheLabel()
     }
     
+    @IBAction func buttonAngry(_ sender: Any) {
+        labelStatus.text = "Feeling Angry!"
+        //resetTheLabel()
+    }
     
+    func resetTheLabel(){
+        sleep(1000)
+        //labelStatus.text=""
+    
+    }
     
 }
 
