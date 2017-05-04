@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B1179031EBA5C0F006F5286 /* loadGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1179021EBA5C0F006F5286 /* loadGif.swift */; };
+		3B1179111EBA6013006F5286 /* gifHappy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3B11790D1EBA6013006F5286 /* gifHappy.gif */; };
+		3B1179121EBA6013006F5286 /* gifCrazy.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3B11790E1EBA6013006F5286 /* gifCrazy.gif */; };
+		3B1179131EBA6013006F5286 /* gifSad.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3B11790F1EBA6013006F5286 /* gifSad.gif */; };
+		3B1179141EBA6013006F5286 /* gifAngry.gif in Resources */ = {isa = PBXBuildFile; fileRef = 3B1179101EBA6013006F5286 /* gifAngry.gif */; };
 		3BCE8F091EB3CE4100DCCD65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCE8F081EB3CE4100DCCD65 /* AppDelegate.swift */; };
 		3BCE8F0B1EB3CE4100DCCD65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BCE8F0A1EB3CE4100DCCD65 /* ViewController.swift */; };
 		3BCE8F0E1EB3CE4100DCCD65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BCE8F0C1EB3CE4100DCCD65 /* Main.storyboard */; };
@@ -35,6 +40,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B1179021EBA5C0F006F5286 /* loadGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = loadGif.swift; sourceTree = "<group>"; };
+		3B11790D1EBA6013006F5286 /* gifHappy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gifHappy.gif; sourceTree = "<group>"; };
+		3B11790E1EBA6013006F5286 /* gifCrazy.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gifCrazy.gif; sourceTree = "<group>"; };
+		3B11790F1EBA6013006F5286 /* gifSad.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gifSad.gif; sourceTree = "<group>"; };
+		3B1179101EBA6013006F5286 /* gifAngry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = gifAngry.gif; sourceTree = "<group>"; };
 		3BCE8F051EB3CE4100DCCD65 /* emoticoins.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emoticoins.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BCE8F081EB3CE4100DCCD65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BCE8F0A1EB3CE4100DCCD65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -76,9 +86,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B1179151EBA6036006F5286 /* gif */ = {
+			isa = PBXGroup;
+			children = (
+				3B11790D1EBA6013006F5286 /* gifHappy.gif */,
+				3B11790E1EBA6013006F5286 /* gifCrazy.gif */,
+				3B11790F1EBA6013006F5286 /* gifSad.gif */,
+				3B1179101EBA6013006F5286 /* gifAngry.gif */,
+			);
+			name = gif;
+			sourceTree = "<group>";
+		};
 		3BCE8EFC1EB3CE4100DCCD65 = {
 			isa = PBXGroup;
 			children = (
+				3B1179021EBA5C0F006F5286 /* loadGif.swift */,
+				3B1179151EBA6036006F5286 /* gif */,
 				3BCE8F071EB3CE4100DCCD65 /* emoticoins */,
 				3BCE8F1F1EB3CE4100DCCD65 /* emoticoinsTests */,
 				3BCE8F2A1EB3CE4100DCCD65 /* emoticoinsUITests */,
@@ -238,8 +261,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B1179111EBA6013006F5286 /* gifHappy.gif in Resources */,
+				3B1179141EBA6013006F5286 /* gifAngry.gif in Resources */,
 				3BCE8F161EB3CE4100DCCD65 /* LaunchScreen.storyboard in Resources */,
+				3B1179131EBA6013006F5286 /* gifSad.gif in Resources */,
 				3BCE8F131EB3CE4100DCCD65 /* Assets.xcassets in Resources */,
+				3B1179121EBA6013006F5286 /* gifCrazy.gif in Resources */,
 				3BCE8F0E1EB3CE4100DCCD65 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,6 +294,7 @@
 			files = (
 				3BCE8F0B1EB3CE4100DCCD65 /* ViewController.swift in Sources */,
 				3BCE8F091EB3CE4100DCCD65 /* AppDelegate.swift in Sources */,
+				3B1179031EBA5C0F006F5286 /* loadGif.swift in Sources */,
 				3BCE8F111EB3CE4100DCCD65 /* emoticoins.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -518,6 +546,7 @@
 				3BCE8F321EB3CE4100DCCD65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BCE8F331EB3CE4100DCCD65 /* Build configuration list for PBXNativeTarget "emoticoinsTests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +555,7 @@
 				3BCE8F351EB3CE4100DCCD65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BCE8F361EB3CE4100DCCD65 /* Build configuration list for PBXNativeTarget "emoticoinsUITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +564,7 @@
 				3BCE8F381EB3CE4100DCCD65 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
