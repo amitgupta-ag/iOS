@@ -77,7 +77,7 @@ class ViewController: UIViewController {
             case "angry":
                 labelStatus.text = "O\' grumpy baby.."
             default:
-                labelStatus.text = "..even more?"
+                labelStatus.text = "...even more?"
             }
         }else if(hits > 14){
             labelStatus.isHidden = true
